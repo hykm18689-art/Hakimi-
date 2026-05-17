@@ -1,0 +1,142 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: whitesmoke;
+  color: dimgray;
+  line-height: 1.6;
+}
+
+/* header */
+header {
+  background: darkblue;
+  color: white;
+  padding: 25px 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+/* navbar */
+nav {
+  background: slategray;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: lightskyblue;
+}
+
+/* container */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* card */
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: darkblue;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+h3 {
+  color: slategray;
+  margin: 20px 0 10px;
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: darkblue;
+}
+
+button {
+  background: darkblue;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: slategray;
+}
+
+/* tools */
+.tool {
+  background: ghostwhite;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.tool input {
+  width: 200px;
+  margin: 5px;
+}
+
+/* result box */
+.result {
+  margin-top: 15px;
+  padding: 12px;
+  background: lightblue;
+  border-radius: 6px;
+  font-weight: 600;
+  color: darkblue;
+}
+
+/* project box */
+.project {
+  border-left: 4px solid darkblue;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,33 @@
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Elite - تسجيل الدخول</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>مؤسسة Elite التعليمية</h1>
+  </header>
+  <nav>
+    <a href="home.html">الرئيسية</a>
+    <a href="register.html">إنشاء حساب</a>
+  </nav>
+  <center>
+    <div>
+      <h1>تسجيل الدخول</h1>
+      <form method="post" action="home.html">
+        <input type="email" placeholder="البريد الإلكتروني" required>
+        <input type="password" placeholder="كلمة المرور" required>
+        <button type="submit">دخول</button>
+      </form>
+      <p style="margin-top:20px;">
+        ليس لديك حساب؟ <a href="register.html" style="color:#1e3a8a;">أنشئ حساب جديد</a>
+      </p>
+    </div>
+  </center>
+  <script>
+    let h = new Date().getHours();
+    if (h >= 18 || h < 6)document.body.classList.add("dark");
+  </script>
+</body>
+</html>
